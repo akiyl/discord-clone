@@ -6,7 +6,7 @@ export const NavigationAction = () => {
   const { onOpen } = useModal();
   return (
     <div>
-      <>
+      <ActionTooltip side="right" align="center" label="add a server">
         <button
           className="group flex items-center"
           onClick={() => {
@@ -24,7 +24,7 @@ export const NavigationAction = () => {
             />
           </div>
         </button>
-      </>
+      </ActionTooltip>
     </div>
   );
 };
